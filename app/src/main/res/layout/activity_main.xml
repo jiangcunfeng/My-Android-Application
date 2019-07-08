@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back_ground">
+
+    <RelativeLayout
+        android:id="@+id/content_top"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:text="DAY-1"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_below="@id/text_title"
+            android:background="#80000000"
+            android:layout_marginLeft="100sp"
+            android:layout_marginRight="100sp"
+            android:layout_width="match_parent"
+            android:layout_height="8sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content_log_in"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_text_user_name"
+            android:hint="user name"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:hint="password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_log_in"
+            android:text="log in"
+            android:background="#80888888"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/content_select_button"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#80ffffff">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_discover"
+            android:src="@drawable/btn1"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_toLeftOf="@+id/btn_search"
+            android:layout_marginRight="@android:dimen/app_icon_size"
+            android:layout_marginLeft="15sp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:layout_width="30sp"
+            android:layout_height="30sp" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_search"
+            android:src="@drawable/btn4"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_toLeftOf="@+id/btn_add"
+            android:layout_marginRight="@android:dimen/app_icon_size"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:layout_width="30sp"
+            android:layout_height="30sp" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_add"
+            android:src="@drawable/btn2"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:layout_width="50sp"
+            android:layout_height="50sp" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_follow"
+            android:src="@drawable/btn5"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/btn_add"
+            android:layout_marginLeft="@android:dimen/app_icon_size"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:layout_width="30sp"
+            android:layout_height="30sp" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_home"
+            android:src="@drawable/btn3"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/btn_follow"
+            android:layout_marginLeft="@android:dimen/app_icon_size"
+            android:layout_marginRight="15sp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:layout_width="30sp"
+            android:layout_height="30sp" />
+    </LinearLayout>
+
+</RelativeLayout>
