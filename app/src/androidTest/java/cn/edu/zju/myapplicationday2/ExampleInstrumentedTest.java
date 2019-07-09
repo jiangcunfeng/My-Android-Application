@@ -1,4 +1,4 @@
-package cn.edu.zju.jcfday1;
+package cn.edu.zju.myapplicationday2;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("cn.edu.zju.jcfday1", appContext.getPackageName());
+        assertEquals("cn.edu.zju.myapplicationday2", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package cn.edu.zju.jcfday1;
+package cn.edu.zju.myapplicationday2;
 
 import org.junit.Test;
 

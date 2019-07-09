@@ -1,139 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/back_ground">
-
-    <RelativeLayout
-        android:id="@+id/content_top"
-        android:layout_alignParentTop="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/text_title"
-            android:text="DAY-1"
-            android:layout_alignParentTop="true"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <View
-            android:layout_below="@id/text_title"
-            android:background="#80000000"
-            android:layout_marginLeft="100sp"
-            android:layout_marginRight="100sp"
-            android:layout_width="match_parent"
-            android:layout_height="8sp" />
-
-    </RelativeLayout>
+    android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/content_log_in"
-        android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:background="@color/colorHotMsgBackground"
+        android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/edit_text_user_name"
-            android:hint="user name"
-            android:textSize="20sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:padding="12sp"
+            android:scaleType="fitXY"
+            android:background="@color/colorHotMsgBackground"
+            android:layout_gravity="center"
+            android:onClick="backMyPage"
+            app:srcCompat="@drawable/back_gray2" />
 
-        <EditText
-            android:id="@+id/edit_text_password"
-            android:hint="password"
-            android:ems="10"
-            android:inputType="textPassword"
-            android:textSize="20sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn_log_in"
-            android:text="log in"
-            android:background="#80888888"
-            android:textSize="20sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/text_view_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="抖音热搜"
+                android:textColor="@color/colorHotMsgTitle"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <View
+                android:background="#e6face15"
+                android:layout_width="150sp"
+                android:layout_gravity="center"
+                android:layout_height="3sp" />
+        </LinearLayout>
 
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:padding="12sp"
+            android:layout_gravity="center"
+            android:background="@color/colorHotMsgBackground"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/share_gray" />
     </LinearLayout>
 
-
-    <LinearLayout
-        android:id="@+id/content_select_button"
-        android:layout_alignParentBottom="true"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="#80ffffff">
-
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/btn_discover"
-            android:src="@drawable/btn1"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:layout_toLeftOf="@+id/btn_search"
-            android:layout_marginRight="@android:dimen/app_icon_size"
-            android:layout_marginLeft="15sp"
-            android:background="#00000000"
-            android:scaleType="fitXY"
-            android:layout_width="30sp"
-            android:layout_height="30sp" />
-
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/btn_search"
-            android:src="@drawable/btn4"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:layout_toLeftOf="@+id/btn_add"
-            android:layout_marginRight="@android:dimen/app_icon_size"
-            android:background="#00000000"
-            android:scaleType="fitXY"
-            android:layout_width="30sp"
-            android:layout_height="30sp" />
-
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/btn_add"
-            android:src="@drawable/btn2"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:background="#00000000"
-            android:scaleType="fitXY"
-            android:layout_width="50sp"
-            android:layout_height="50sp" />
-
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/btn_follow"
-            android:src="@drawable/btn5"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:layout_toRightOf="@+id/btn_add"
-            android:layout_marginLeft="@android:dimen/app_icon_size"
-            android:background="#00000000"
-            android:scaleType="fitXY"
-            android:layout_width="30sp"
-            android:layout_height="30sp" />
-
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/btn_home"
-            android:src="@drawable/btn3"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:layout_toRightOf="@+id/btn_follow"
-            android:layout_marginLeft="@android:dimen/app_icon_size"
-            android:layout_marginRight="15sp"
-            android:background="#00000000"
-            android:scaleType="fitXY"
-            android:layout_width="30sp"
-            android:layout_height="30sp" />
-    </LinearLayout>
-
-</RelativeLayout>
+        android:layout_height="match_parent" />
+</LinearLayout>

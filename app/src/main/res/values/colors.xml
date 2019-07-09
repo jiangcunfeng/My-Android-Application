@@ -3,4 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorHotMsgBackground">#161823</color>
+    <color name="colorHotMsgNo_1">#e6face15</color>
+    <color name="colorHotMsgNo_2">#99ffffff</color>
+    <color name="colorHotMsgTitle">#e6ffffff</color>
+    <color name="colorHotMsgValue">#7fffffff</color>
 </resources>
