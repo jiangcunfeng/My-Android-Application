@@ -1,4 +1,4 @@
-package cn.edu.zju.myapplicationday2;
+package cn.edu.zju.myapplication;
 
 public class HotMessage {
     private String no;

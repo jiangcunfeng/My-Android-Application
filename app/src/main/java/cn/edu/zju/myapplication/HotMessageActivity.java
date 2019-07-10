@@ -1,10 +1,8 @@
-package cn.edu.zju.myapplicationday2;
+package cn.edu.zju.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -13,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class HotMessageActivity extends AppCompatActivity {
     private String[] hotMsgTitle = {
             "表面光鲜亮丽其实穿着大裤衩",
             "网友变身吴亦凡",
@@ -85,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_hot_message);
 
         ///初始化
         init();
@@ -102,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void backMyPage(View view) {
-        Intent intent = new Intent(this, MyPageActivity.class);
+        Intent intent = new Intent(this, LogInPageActivity.class);
         startActivity(intent);
     }
 

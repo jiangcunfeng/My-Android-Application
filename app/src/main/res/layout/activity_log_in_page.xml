@@ -67,7 +67,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton1"
+                android:id="@+id/imageButton_home"
                 android:layout_width="48sp"
                 android:layout_height="48sp"
                 android:layout_gravity="center"
@@ -85,7 +85,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/imageButton_search"
                 android:layout_width="48sp"
                 android:layout_height="48sp"
                 android:layout_gravity="center"
@@ -103,7 +103,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/imageButton_add"
                 android:layout_width="48sp"
                 android:layout_height="48sp"
                 android:layout_gravity="center"
@@ -121,7 +121,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/imageButton_collection"
                 android:layout_width="48sp"
                 android:layout_height="48sp"
                 android:layout_gravity="center"
@@ -139,7 +139,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton5"
+                android:id="@+id/imageButton_mine"
                 android:layout_width="48sp"
                 android:layout_height="48sp"
                 android:layout_gravity="center"

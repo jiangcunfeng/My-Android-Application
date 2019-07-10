@@ -1,4 +1,4 @@
-package cn.edu.zju.myapplicationday2;
+package cn.edu.zju.myapplication;
 
 import android.view.LayoutInflater;
 import android.view.View;

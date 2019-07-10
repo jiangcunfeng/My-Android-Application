@@ -1,4 +1,4 @@
-package cn.edu.zju.myapplicationday2;
+package cn.edu.zju.myapplication;
 
 import org.junit.Test;
 
