@@ -3,11 +3,12 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.chapter3.homework"
-        minSdkVersion 21
+        applicationId "com.bytedance.clockapplication"
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -20,17 +21,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
-
-    // lottie Android 官网：https://airbnb.io/lottie/#/android
-    implementation 'com.airbnb.android:lottie:2.7.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-
-    // 这里添加了一个外部库，用来选择颜色
-    // https://github.com/Pes8/android-material-color-picker-dialog
-    implementation 'com.pes.materialcolorpicker:library:1.2.4'
-    // 这里添加了对话框库，用来输入时长
-    // https://github.com/afollestad/material-dialogs
-    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
-    implementation 'com.android.support:support-v4:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
