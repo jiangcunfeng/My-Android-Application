@@ -63,6 +63,13 @@ public class NoteViewHolder extends RecyclerView.ViewHolder {
                 operator.deleteNote(note);
             }
         });
+        contentText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                operator.updateNote(note.id, note.getContent());
+            }
+        });
+
 
         if (note.getState() == State.DONE) {
             contentText.setTextColor(Color.GRAY);
