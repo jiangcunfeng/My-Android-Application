@@ -1,70 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <android.support.design.widget.AppBarLayout
+    <Button
+        android:id="@+id/button_go_get_permission"
+        android:onClick="goGetPermission"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:text="get permission" />
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-        <RadioGroup
-            android:id="@+id/radio_group_filter"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="0sp"
-            >
-
-            <android.support.v7.widget.AppCompatRadioButton
-                android:id="@+id/btn_high_filter"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/priority_high" />
-
-            <android.support.v7.widget.AppCompatRadioButton
-                android:id="@+id/btn_medium_filter"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/priority_medium" />
-
-            <android.support.v7.widget.AppCompatRadioButton
-                android:id="@+id/btn_low_filter"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/priority_low" />
-
-            <android.support.v7.widget.AppCompatRadioButton
-                android:id="@+id/btn_all_filter"
-                android:checked="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="All" />
-        </RadioGroup>
-    </android.support.design.widget.AppBarLayout>
-
-
-
-    <include layout="@layout/content_main" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:onClick="goNoteActivity_add"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button_go_view_images"
+        android:onClick="goViewImages"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@drawable/ic_add_white_24dp" />
+        android:text="View Images" />
 
-</android.support.design.widget.CoordinatorLayout>
+    <Button
+        android:id="@+id/button_go_video_player"
+        android:onClick="goVideoPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Player" />
+
+</LinearLayout>
