@@ -1,0 +1,188 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\2f98db82359485941f1896f066141b2a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1079df6f0aa926d1b108f78a56cf0c6a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\beb4c164d1fea70092153bcec08bafde\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\b7872274ec5af84b48d5b27eda13290f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\919f81ab3498af9b1ec08124a7381b31\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\a4c127cfc490170842cc20a13dbdcd78\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\b602927b442036551f912d18bb07be60\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1dd863307074352fe7f6b1fc2d0f4438\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\cf369db1d39635545d491a7b3a660435\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\2d71fe4580af787c1a06db4073ba78b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\be90fd8d618d982ad8dd4b3a95f3c9c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\9b4a777c8a2e476b232523b21bf9f5d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\9aaf55a972f76d23dbb7dd7418dbd3a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\e495307c51a3de9411a662d58c15eed1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\780ded9787e4006caafdbe1fd0cf324a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\caa85589b06c7bb635dccc46a3e84338\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\12aae874f79461bda1931c1a144d489f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\981bd451612e26fa7516ef8fad9cb09c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\7699e4fbc0f6396fc05b74b4b0f1ac35\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\6aee980cf27a5dc91230463b1ae9e461\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\c6c6b4b95b288286317d8d5bfe79234f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\69631d61c405a5ce645c949b4c70c8c1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\327fe43f30f998d69fd42b8fdd72501e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\3897724c3415c1a9af228cde75112962\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\8d66fdd0988dd6d7516b07461df6e2df\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\3413eb0053195f3e059e499307177d6a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1d771f107820ab0cf4c522556b2eb22c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\916afa59b5c9fc26c7bca159a0bba47f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\a4bc79c70557cf4f88c905aa3b076c66\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1d211e8f66794ffdd967ef847bf2f546\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\a512e7ed371a2e3ffb4c5c9e843d44fb\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:6:22-78
+application
+ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:8:5-28:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\2f98db82359485941f1896f066141b2a\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\2f98db82359485941f1896f066141b2a\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\beb4c164d1fea70092153bcec08bafde\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\beb4c164d1fea70092153bcec08bafde\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\7699e4fbc0f6396fc05b74b4b0f1ac35\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\7699e4fbc0f6396fc05b74b4b0f1ac35\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\6aee980cf27a5dc91230463b1ae9e461\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\6aee980cf27a5dc91230463b1ae9e461\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\7699e4fbc0f6396fc05b74b4b0f1ac35\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:15:9-48
+	android:roundIcon
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.byted.camp.todolist.MainActivity
+ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:16:9-25:20
+	android:label
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.byted.camp.todolist.debug.DebugActivity
+ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:26:9-57
+	android:name
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:26:19-54
+activity#com.byted.camp.todolist.NoteActivity
+ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:27:9-50
+	android:name
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml:27:19-47
+uses-sdk
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\2f98db82359485941f1896f066141b2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\2f98db82359485941f1896f066141b2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1079df6f0aa926d1b108f78a56cf0c6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1079df6f0aa926d1b108f78a56cf0c6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\beb4c164d1fea70092153bcec08bafde\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\beb4c164d1fea70092153bcec08bafde\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\b7872274ec5af84b48d5b27eda13290f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\b7872274ec5af84b48d5b27eda13290f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\919f81ab3498af9b1ec08124a7381b31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\919f81ab3498af9b1ec08124a7381b31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\a4c127cfc490170842cc20a13dbdcd78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\a4c127cfc490170842cc20a13dbdcd78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\b602927b442036551f912d18bb07be60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\b602927b442036551f912d18bb07be60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1dd863307074352fe7f6b1fc2d0f4438\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1dd863307074352fe7f6b1fc2d0f4438\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\cf369db1d39635545d491a7b3a660435\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\cf369db1d39635545d491a7b3a660435\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\2d71fe4580af787c1a06db4073ba78b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\2d71fe4580af787c1a06db4073ba78b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\be90fd8d618d982ad8dd4b3a95f3c9c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\be90fd8d618d982ad8dd4b3a95f3c9c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\9b4a777c8a2e476b232523b21bf9f5d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\9b4a777c8a2e476b232523b21bf9f5d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\9aaf55a972f76d23dbb7dd7418dbd3a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\9aaf55a972f76d23dbb7dd7418dbd3a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\e495307c51a3de9411a662d58c15eed1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\e495307c51a3de9411a662d58c15eed1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\780ded9787e4006caafdbe1fd0cf324a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\780ded9787e4006caafdbe1fd0cf324a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\caa85589b06c7bb635dccc46a3e84338\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\caa85589b06c7bb635dccc46a3e84338\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\12aae874f79461bda1931c1a144d489f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\12aae874f79461bda1931c1a144d489f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\981bd451612e26fa7516ef8fad9cb09c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\981bd451612e26fa7516ef8fad9cb09c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\7699e4fbc0f6396fc05b74b4b0f1ac35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\7699e4fbc0f6396fc05b74b4b0f1ac35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\6aee980cf27a5dc91230463b1ae9e461\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\6aee980cf27a5dc91230463b1ae9e461\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\c6c6b4b95b288286317d8d5bfe79234f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\c6c6b4b95b288286317d8d5bfe79234f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\69631d61c405a5ce645c949b4c70c8c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\69631d61c405a5ce645c949b4c70c8c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\327fe43f30f998d69fd42b8fdd72501e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\327fe43f30f998d69fd42b8fdd72501e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\3897724c3415c1a9af228cde75112962\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\3897724c3415c1a9af228cde75112962\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\8d66fdd0988dd6d7516b07461df6e2df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\8d66fdd0988dd6d7516b07461df6e2df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\3413eb0053195f3e059e499307177d6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\3413eb0053195f3e059e499307177d6a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1d771f107820ab0cf4c522556b2eb22c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1d771f107820ab0cf4c522556b2eb22c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\916afa59b5c9fc26c7bca159a0bba47f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\916afa59b5c9fc26c7bca159a0bba47f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\a4bc79c70557cf4f88c905aa3b076c66\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\a4bc79c70557cf4f88c905aa3b076c66\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1d211e8f66794ffdd967ef847bf2f546\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\1d211e8f66794ffdd967ef847bf2f546\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\a512e7ed371a2e3ffb4c5c9e843d44fb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dage\.gradle\caches\transforms-2\files-2.1\a512e7ed371a2e3ffb4c5c9e843d44fb\AndroidManifest.xml:20:5-44
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyCodes\Android\JCFDAY1\todolist\app\src\main\AndroidManifest.xml

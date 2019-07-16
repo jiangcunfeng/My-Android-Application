@@ -1,0 +1,4 @@
+#Tue Jul 16 03:54:04 CST 2019
+base.0=D\:\\MyCodes\\Android\\JCFDAY1\\todolist\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex
