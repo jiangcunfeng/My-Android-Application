@@ -13,37 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad69e627-6b12-4b54-97c5-37a2e2eee524" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/SearchActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dou/src/main/res/layout/activity_search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dou/src/main/res/layout/item_mine_layout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dou/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/HotMsgActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/VideoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/VideoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/api/IMiniDouyinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/api/IMiniDouyinService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/hotMsg/HotMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/hotMsg/HotMessageAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/GetVideosResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/GetVideosResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/res/layout/activity_hot_msg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/res/layout/activity_video.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/res/layout/activity_view_pager_layout_manager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/res/layout/activity_view_pager_layout_manager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/res/layout/hot_message_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/res/layout/item_view_pager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/res/layout/item_view_pager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/res/layout/video_item_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/res/layout/video_item_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dou/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dou/src/main/res/mipmap-anydpi-v26/douyin.png" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/res/mipmap-anydpi-v26/douyin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/douyin.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,12 +60,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dou/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="394">
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
               <folding>
                 <element signature="e#1126#1155#0" expanded="true" />
               </folding>
@@ -132,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_mine.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
@@ -255,11 +231,11 @@
         <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/GetVideosResponse.java" />
         <option value="$PROJECT_DIR$/dou/src/main/res/layout/activity_view_pager_layout_manager.xml" />
         <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java" />
-        <option value="$PROJECT_DIR$/dou/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MineActivity.java" />
         <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/SearchActivity.java" />
         <option value="$PROJECT_DIR$/dou/src/main/res/layout/activity_search.xml" />
         <option value="$PROJECT_DIR$/dou/src/main/res/layout/activity_mine.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -328,6 +304,12 @@
             </path>
             <path>
               <item name="JCFDAY5" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dou" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="mipmap" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -341,7 +323,7 @@
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="Pixel_3_API_26" />
+    <property name="device.picker.selection" value="cdbaff26" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/dou/src/main/res/mipmap-anydpi-v26" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../My-Android-Application-homework-day5" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -360,8 +342,8 @@
       <recent name="com.bytedance.androidcamp.network.dou" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\res\layout" />
       <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\res\mipmap-anydpi-v26" />
+      <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\res\layout" />
       <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\res\mipmap-xhdpi" />
       <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\res\drawable-v24" />
       <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\java\com\bytedance\androidcamp\network\dou\util" />
@@ -521,7 +503,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28016084" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28016084" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -536,7 +518,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49932975" weight="0.33519554" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5033512" side_tool="true" weight="0.22206704" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.4966488" visible="true" weight="0.18854749" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4966488" visible="true" weight="0.18854749" />
       <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49932975" weight="0.12150838" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -915,17 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="e#1126#1155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MineActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -960,6 +931,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding>
+            <element signature="e#1126#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
