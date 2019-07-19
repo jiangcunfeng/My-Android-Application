@@ -244,37 +244,37 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initBtns() {
-        mBtn = findViewById(R.id.btn);
-        mBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String s = mBtn.getText().toString();
-                if (getString(R.string.select_an_image).equals(s)) {
-                    chooseImage();
-                } else if (getString(R.string.select_a_video).equals(s)) {
-                    chooseVideo();
-                } else if (getString(R.string.post_it).equals(s)) {
-                    if (mSelectedVideo != null && mSelectedImage != null) {
-                        postVideo();
-                    } else {
-                        throw new IllegalArgumentException("error data uri, mSelectedVideo = "
-                                + mSelectedVideo
-                                + ", mSelectedImage = "
-                                + mSelectedImage);
-                    }
-                } else if ((getString(R.string.success_try_refresh).equals(s))) {
-                    mBtn.setText(R.string.select_an_image);
-                }
-            }
-        });
-
-        mBtnRefresh = findViewById(R.id.btn_refresh);
-        mBtnRefresh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                fetchFeed();
-            }
-        });
+//        mBtn = findViewById(R.id.btn);
+//        mBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                String s = mBtn.getText().toString();
+//                if (getString(R.string.select_an_image).equals(s)) {
+//                    chooseImage();
+//                } else if (getString(R.string.select_a_video).equals(s)) {
+//                    chooseVideo();
+//                } else if (getString(R.string.post_it).equals(s)) {
+//                    if (mSelectedVideo != null && mSelectedImage != null) {
+//                        postVideo();
+//                    } else {
+//                        throw new IllegalArgumentException("error data uri, mSelectedVideo = "
+//                                + mSelectedVideo
+//                                + ", mSelectedImage = "
+//                                + mSelectedImage);
+//                    }
+//                } else if ((getString(R.string.success_try_refresh).equals(s))) {
+//                    mBtn.setText(R.string.select_an_image);
+//                }
+//            }
+//        });
+//
+//        mBtnRefresh = findViewById(R.id.btn_refresh);
+//        mBtnRefresh.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                fetchFeed();
+//            }
+//        });
 
 
         img_refresh = findViewById(R.id.img_refresh);
@@ -300,14 +300,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        img_search = findViewById(R.id.img_search);
-        img_search.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, HotMsgActivity.class);
-                startActivity(intent);
-            }
-        });
+//        img_search = findViewById(R.id.img_search);
+//        img_search.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(MainActivity.this, HotMsgActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
     }
 
@@ -652,17 +652,17 @@ public class MainActivity extends AppCompatActivity {
                 + data
                 + "]");
 
-        if (resultCode == RESULT_OK && null != data) {
-            if (requestCode == PICK_IMAGE) {
-                mSelectedImage = data.getData();
-                Log.d(TAG, "selectedImage = " + mSelectedImage);
-                mBtn.setText(R.string.select_a_video);
-            } else if (requestCode == PICK_VIDEO) {
-                mSelectedVideo = data.getData();
-                Log.d(TAG, "mSelectedVideo = " + mSelectedVideo);
-                mBtn.setText(R.string.post_it);
-            }
-        }
+//        if (resultCode == RESULT_OK && null != data) {
+//            if (requestCode == PICK_IMAGE) {
+//                mSelectedImage = data.getData();
+//                Log.d(TAG, "selectedImage = " + mSelectedImage);
+//                mBtn.setText(R.string.select_a_video);
+//            } else if (requestCode == PICK_VIDEO) {
+//                mSelectedVideo = data.getData();
+//                Log.d(TAG, "mSelectedVideo = " + mSelectedVideo);
+//                mBtn.setText(R.string.post_it);
+//            }
+//        }
     }
 
     private MultipartBody.Part getMultipartFromUri(String name, Uri uri) {
@@ -677,8 +677,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void postVideo() {
-        mBtn.setText("POSTING...");
-        mBtn.setEnabled(false);
+//        mBtn.setText("POSTING...");
+//        mBtn.setEnabled(false);
 //        mSelectedImage = ResourceUtils.getFileUri(this, mSelectedImage);
 //        mSelectedVideo = ResourceUtils.getFileUri(this, mSelectedVideo);
 //        textView.setText(mSelectedImage.toString());
@@ -691,12 +691,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<PostVideoResponse> call, Response<PostVideoResponse> response) {
                 if (response.body() != null && response.body().getSuccess() == true) {
-                    mBtn.setText(R.string.success_try_refresh);
-                    mBtn.setEnabled(true);
+//                    mBtn.setText(R.string.success_try_refresh);
+//                    mBtn.setEnabled(true);
 //                    textView.setText("^_^ TODO 9");
                 } else {
-                    mBtn.setText(R.string.select_an_image);
-                    mBtn.setEnabled(true);
+//                    mBtn.setText(R.string.select_an_image);
+//                    mBtn.setEnabled(true);
 //                    textView.setText("TAT TODO 9");
                     if(response.body() != null){
 //                        textView.setText("TAT TODO 9: "+"\n"+response.body().getInfo());
@@ -706,8 +706,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<PostVideoResponse> call, Throwable throwable) {
-                mBtn.setText(R.string.select_an_image);
-                mBtn.setEnabled(true);
+//                mBtn.setText(R.string.select_an_image);
+//                mBtn.setEnabled(true);
 
                 String msg = "TODO 9: post video & update buttons" + throwable.getMessage();
 //                textView.setText(msg);
@@ -717,8 +717,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void fetchFeed() {
-        mBtnRefresh.setText("requesting...");
-        mBtnRefresh.setEnabled(false);
+//        mBtnRefresh.setText("requesting...");
+//        mBtnRefresh.setEnabled(false);
         // TODO 10: get videos & update recycler list
         Call<GetVideosResponse> call = miniDouyinService.getVideos();
         call.enqueue(new Callback<GetVideosResponse>() {
@@ -728,20 +728,20 @@ public class MainActivity extends AppCompatActivity {
                     mVideos = response.body().getVideos();
                     mRv.getAdapter().notifyDataSetChanged();
 
-                    mBtnRefresh.setText(R.string.refresh_feed);
-                    mBtnRefresh.setEnabled(true);
+//                    mBtnRefresh.setText(R.string.refresh_feed);
+//                    mBtnRefresh.setEnabled(true);
 //                    textView.setText("^_^ TODO 10");
                 } else {
-                    mBtnRefresh.setText("refresh fail");
-                    mBtnRefresh.setEnabled(true);
+//                    mBtnRefresh.setText("refresh fail");
+//                    mBtnRefresh.setEnabled(true);
 //                    textView.setText("TAT TODO 10");
                 }
             }
 
             @Override
             public void onFailure(Call<GetVideosResponse> call, Throwable throwable) {
-                mBtnRefresh.setText(R.string.refresh_feed);
-                mBtnRefresh.setEnabled(true);
+//                mBtnRefresh.setText(R.string.refresh_feed);
+//                mBtnRefresh.setEnabled(true);
 
                 String s = "TODO 10: get videos & update recycler list" + throwable.getMessage();
 //                textView.setText(s);

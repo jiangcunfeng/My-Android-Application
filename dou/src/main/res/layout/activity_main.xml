@@ -20,31 +20,31 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/ll"
-        android:layout_width="match_parent"
-        android:layout_height="92dp"
-        android:orientation="horizontal">
+    <!--<LinearLayout-->
+        <!--android:id="@+id/ll"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="92dp"-->
+        <!--android:orientation="horizontal">-->
 
-        <Button
-            android:id="@+id/btn"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="16dp"
-            android:layout_weight="1"
-            android:text="@string/select_an_image"
-        />
+        <!--<Button-->
+            <!--android:id="@+id/btn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/select_an_image"-->
+        <!--/>-->
 
-        <Button
-            android:id="@+id/btn_refresh"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="16dp"
-            android:layout_weight="1"
-            android:onClick="fetchFeed"
-            android:text="@string/refresh_feed"
-        />
-    </LinearLayout>
+        <!--<Button-->
+            <!--android:id="@+id/btn_refresh"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:onClick="fetchFeed"-->
+            <!--android:text="@string/refresh_feed"-->
+        <!--/>-->
+    <!--</LinearLayout>-->
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv"
@@ -56,6 +56,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ll" />
+        app:layout_constraintTop_toBottomOf="parent" />
     >
 </android.support.constraint.ConstraintLayout>
