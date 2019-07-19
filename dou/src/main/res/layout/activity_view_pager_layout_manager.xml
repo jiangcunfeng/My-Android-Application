@@ -13,34 +13,10 @@
         android:layout_height="match_parent" />
 
 
-    <!--<LinearLayout-->
-        <!--android:id="@+id/ll"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="92dp"-->
-        <!--android:orientation="horizontal">-->
-
-        <!--<Button-->
-            <!--android:id="@+id/btn"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_margin="16dp"-->
-            <!--android:layout_weight="1"-->
-            <!--android:text="@string/select_an_image"-->
-            <!--/>-->
-
-        <!--<Button-->
-            <!--android:id="@+id/btn_refresh"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_margin="16dp"-->
-            <!--android:layout_weight="1"-->
-            <!--android:text="@string/refresh_feed"-->
-            <!--/>-->
-    <!--</LinearLayout>-->
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="25dp"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -69,6 +45,7 @@
 
         <ImageView
             android:id="@+id/img_search"
+            android:clickable="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -78,6 +55,7 @@
 
         <ImageView
             android:id="@+id/img_refresh"
+            android:clickable="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -100,16 +78,18 @@
         android:layout_height="?actionBarSize"
         android:layout_alignParentBottom="true"
         android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#33000000">
 
         <TextView
+            android:id="@+id/text_home"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:text="首页"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"
+            android:textColor="#f2f2f2"
+            android:textSize="19sp"
             android:textStyle="bold" />
 
         <TextView
@@ -140,6 +120,8 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/text_mine"
+            android:clickable="true"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

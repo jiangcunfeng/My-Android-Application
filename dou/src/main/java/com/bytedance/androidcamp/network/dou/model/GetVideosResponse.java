@@ -12,8 +12,10 @@ public class GetVideosResponse {
     @SerializedName("success") boolean success;
 
     private List<Video> videos = new ArrayList<>();
+    private List<Video> my_videos = new ArrayList<>();
 
     public List<Video> getVideos() {
+        my_videos.clear();
         if (success == true) {
             for (int i=0;i!=feeds.length;i++) {
                 Video video = new Video();
@@ -31,6 +33,21 @@ public class GetVideosResponse {
         return videos;
     }
 
+
+    public List<Video> getOnesVideos(String userName) {
+        my_videos.clear();
+        if (success == true) {
+            for (int i=0;i!=videos.size();i++) {
+                Video video = videos.get(i);
+
+                if(video.getUserName().equals(userName)){
+                    my_videos.add(video);
+                }
+            }
+        }
+
+        return my_videos;
+    }
 
     public Feeds[] getFeeds() {
         return feeds;

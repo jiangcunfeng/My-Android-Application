@@ -25,4 +25,5 @@ public interface IMiniDouyinService {
 
     @GET(PATH)
     Call<GetVideosResponse> getVideos();
+
 }

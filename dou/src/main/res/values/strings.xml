@@ -11,4 +11,5 @@
     <string name="msg_time">1.6w</string>
     <string name="share_time">1.6w</string>
     <string name="title_activity_custom_camera">CustomCameraActivity</string>
+    <string name="title_activity_mine">MineActivity</string>
 </resources>
