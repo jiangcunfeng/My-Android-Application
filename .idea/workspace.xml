@@ -6,19 +6,74 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="videosresponse" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad69e627-6b12-4b54-97c5-37a2e2eee524" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/CustomCameraActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/HotMsgActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/OnViewPagerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/ViewPagerLayoutManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/util/UriUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/util/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/anim/heart_holder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/add_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/heart_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/msg_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/pic5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/play_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/share_gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable-v24/share_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/arrow_forward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/circle_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/circle_stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/video_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/drawable/wait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/layout/activity_custom_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/layout/activity_hot_msg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/layout/activity_view_pager_layout_manager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/layout/hot_message_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/layout/item_view_pager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/add_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/add_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/heart_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/msg_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/paly_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/refresh_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/share_icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dou/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dou/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dou/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dou/src/main/res/layout/video_item_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/res/layout/video_item_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dou/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dou/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dou/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dou/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,134 +101,104 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/bytedance/androidcamp/network/demo/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="174" column="41" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
+            <state relative-caret-position="-3551">
+              <caret line="273" selection-start-line="273" selection-end-line="273" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#testRetrofitSync#0;class#MainActivity#0" />
-                <element signature="method#testUpdateUI#0;class#MainActivity#0" />
-                <element signature="method#getGson#0;class#MainActivity#0" />
-                <element signature="method#getCatService#0;class#MainActivity#0" />
+                <element signature="method#addLightness#0;class#MainActivity#0" />
+                <element signature="method#addVolume#0;class#MainActivity#0" />
+                <element signature="method#initRetrofit#0;class#MainActivity#0" />
+                <element signature="method#initBtns#0;class#MainActivity#0" />
+                <element signature="e#11022#11023#0" expanded="true" />
+                <element signature="e#11065#11066#0" expanded="true" />
+                <element signature="e#11268#11269#0" expanded="true" />
+                <element signature="e#11311#11312#0" expanded="true" />
+                <element signature="class#14954:15567" />
+                <element signature="method#onAnimationStart#0;class#14954:15567" />
+                <element signature="method#onAnimationEnd#0;class#14954:15567" />
+                <element signature="method#onAnimationRepeat#0;class#14954:15567" />
+                <element signature="e#9783#9836#0" />
+                <element signature="method#chooseImage#0;class#MainActivity#0" />
+                <element signature="method#chooseVideo#0;class#MainActivity#0" />
+                <element signature="method#getMultipartFromUri#0;class#MainActivity#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/hotMsg/HotMessageAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/HotMsgActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="233" column="61" selection-start-line="233" selection-start-column="61" selection-end-line="233" selection-end-column="61" />
+            <state relative-caret-position="185">
+              <caret line="93" column="73" selection-start-line="93" selection-start-column="73" selection-end-line="93" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5510#5511#0" expanded="true" />
-                <element signature="e#5563#5564#0" expanded="true" />
-                <element signature="method#chooseImage#0;class#MainActivity#0" />
-                <element signature="method#chooseVideo#0;class#MainActivity#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_main.xml">
+        <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_hot_msg.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="-6">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/VideoActivity.java">
+        <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/hot_message_item.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+            <state relative-caret-position="110">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/Video.java">
+        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/hotMsg/HotMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/PostVideoResponse.java">
+        <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/item_view_pager.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-              <folding>
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="335">
+              <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/Result.java">
+        <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_view_pager_layout_manager.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/api/IMiniDouyinService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/GetVideosResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/Feeds.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#966#967#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-352">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -185,16 +210,12 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get</find>
-      <find>testHttpURLConnectionSync</find>
-      <find>catService</find>
-      <find>getCatService</find>
-      <find>response</find>
       <find>randomCat</find>
       <find>testUpdateUI</find>
       <find>utils</find>
@@ -207,8 +228,29 @@
       <find>success_try_refresh</find>
       <find>fuck</find>
       <find>post_it</find>
+      <find>layout</find>
+      <find>textView</find>
+      <find>rv</find>
+      <find>postVideo</find>
+      <find>back</find>
+      <find>draw</find>
+      <find>Toast.LENGTH_SHORT</find>
+      <find>0.5f</find>
+      <find>align</find>
+      <find>0.1f</find>
+      <find>ti</find>
+      <find>tint</find>
+      <find>playv</find>
       <find>textview</find>
+      <find>init</find>
+      <find>initb</find>
+      <find>play</find>
+      <find>heartView</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Toast.LENGTH_LONG</replace>
+      <replace>img_love</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -225,16 +267,33 @@
         <option value="$PROJECT_DIR$/demo/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/Video.java" />
         <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/GetVideosResponse.java" />
-        <option value="$PROJECT_DIR$/dou/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/PostVideoResponse.java" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/layout/video_item_view.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/OnViewPagerListener.java" />
+        <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/ViewPagerLayoutManager.java" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/dou/build.gradle" />
+        <option value="$PROJECT_DIR$/dou/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/layout/activity_custom_camera.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/CustomCameraActivity.java" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/layout/activity_view_pager_layout_manager.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/hotMsg/HotMessage.java" />
+        <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/hotMsg/HotMessageAdapter.java" />
+        <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/HotMsgActivity.java" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/values/heart_hold.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/anim/heart_holder.xml" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/layout/item_view_pager.xml" />
         <option value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java" />
+        <option value="$PROJECT_DIR$/dou/src/main/res/layout/activity_hot_msg.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="980" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -242,21 +301,113 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dou" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JCFDAY5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCFDAY5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dou" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="JCFDAY1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="JCFDAY5" type="1abcf292:AndroidViewProjectNode" />
               <item name="dou" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
-              <item name="JCFDAY1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="JCFDAY5" type="1abcf292:AndroidViewProjectNode" />
               <item name="dou" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
-              <item name="JCFDAY1" type="1abcf292:AndroidViewProjectNode" />
+              <item name="JCFDAY5" type="1abcf292:AndroidViewProjectNode" />
               <item name="dou" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="dou" type="cbb59c9e:AndroidPsiDirectoryNode" />
@@ -265,15 +416,26 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="cdbaff26" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyApp_InternetTest" />
+    <property name="device.picker.selection" value="Pixel_3_API_26" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GIT/LayoutManagerGroup-master" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bytedance.androidcamp.network.dou" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\res\drawable-v24" />
+      <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\res\layout" />
+      <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\java\com\bytedance\androidcamp\network\dou\util" />
+      <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\res" />
+      <recent name="D:\MyCodes\FINAL\JCFDAY5\dou\src\main\res\mipmap-xhdpi" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -429,7 +591,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18498659" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13672923" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -438,14 +600,14 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49932975" weight="0.32960895" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.4953083" weight="0.14106146" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49798927" weight="0.32960895" />
+      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.4953083" weight="0.30726257" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49932975" weight="0.33519554" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50268096" side_tool="true" weight="0.17178771" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50268096" side_tool="true" weight="0.17039107" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32960895" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49731904" visible="true" weight="0.17178771" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.32960895" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49731904" visible="true" weight="0.22206704" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49932975" weight="0.12150838" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -470,207 +632,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/content/Intent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/org/json/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="78" column="21" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="77" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/libs/retrofit-2.5.0.jar!/retrofit2/http/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/PostVideoResponse.kt" />
-    <entry file="jar://$PROJECT_DIR$/lib/libs/okhttp-3.12.0.jar!/okhttp3/Response.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4c127cfc490170842cc20a13dbdcd78/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/libs/retrofit-2.5.0.jar!/retrofit2/Callback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/libs/retrofit-2.5.0.jar!/retrofit2/Response.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/bytedance/androidcamp/network/demo/utils/NetworkUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/libs/okhttp-3.12.0.jar!/okhttp3/Callback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/bytedance/androidcamp/network/demo/newtork/ICatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/bytedance/androidcamp/network/demo/model/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/libs/okhttp-3.12.0.jar!/okhttp3/MultipartBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/util/ResourceUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="273" column="30" selection-start-line="273" selection-start-column="30" selection-end-line="273" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_video.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/video_item_view.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/bytedance/androidcamp/network/lib/util/ImageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/bytedance/androidcamp/network/demo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1430">
@@ -685,43 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/VideoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/PostVideoResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -729,30 +653,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/api/IMiniDouyinService.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4c127cfc490170842cc20a13dbdcd78/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="309">
+          <caret line="704" column="9" lean-forward="true" selection-start-line="704" selection-start-column="9" selection-end-line="704" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4c127cfc490170842cc20a13dbdcd78/jars/classes.jar!/android/support/v7/widget/OrientationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/drawable/ic_launcher_background.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/drawable-v24/heart_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/content/Intent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="411" column="15" selection-start-line="411" selection-start-column="15" selection-end-line="411" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#28455#28456#0" expanded="true" />
+            <element signature="e#28506#28507#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/GetVideosResponse.java">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/media/ThumbnailUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="121">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/graphics/Bitmap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="142" column="19" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/provider/MediaStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="106" column="36" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/Feeds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="322">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="e#598#599#0" expanded="true" />
             <element signature="e#624#625#0" expanded="true" />
@@ -770,16 +726,317 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/mipmap-anydpi-v26/msg_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/api/IMiniDouyinService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="233" column="61" selection-start-line="233" selection-start-column="61" selection-end-line="233" selection-end-column="61" />
+        <state relative-caret-position="286">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5510#5511#0" expanded="true" />
-            <element signature="e#5563#5564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/bytedance/androidcamp/network/lib/util/ImageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/mipmap-xxhdpi-v26/search_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/mipmap-xxxhdpi/add_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/add_bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/PostVideoResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/OnViewPagerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/VideoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="e#1217#1408#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_video.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/data/res/values/themes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="466" column="17" selection-start-line="466" selection-start-column="17" selection-end-line="466" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/video_item_view.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/mipmap-xhdpi/refresh_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/model/GetVideosResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/ViewPagerLayoutManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/util/UriUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_custom_camera.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/CustomCameraActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="349" column="8" selection-start-line="349" selection-start-column="8" selection-end-line="349" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/content/res/ColorStateList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/widget/TextView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="279" column="76" lean-forward="true" selection-start-line="279" selection-start-column="62" selection-end-line="279" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/values/heart_hold.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/anim/heart_holder.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_view_pager_layout_manager.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/item_view_pager.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/hot_message_item.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/hotMsg/HotMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3551">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addLightness#0;class#MainActivity#0" />
+            <element signature="method#addVolume#0;class#MainActivity#0" />
+            <element signature="method#initRetrofit#0;class#MainActivity#0" />
+            <element signature="method#initBtns#0;class#MainActivity#0" />
+            <element signature="e#11022#11023#0" expanded="true" />
+            <element signature="e#11065#11066#0" expanded="true" />
+            <element signature="e#11268#11269#0" expanded="true" />
+            <element signature="e#11311#11312#0" expanded="true" />
+            <element signature="class#14954:15567" />
+            <element signature="method#onAnimationStart#0;class#14954:15567" />
+            <element signature="method#onAnimationEnd#0;class#14954:15567" />
+            <element signature="method#onAnimationRepeat#0;class#14954:15567" />
+            <element signature="e#9783#9836#0" />
             <element signature="method#chooseImage#0;class#MainActivity#0" />
             <element signature="method#chooseVideo#0;class#MainActivity#0" />
+            <element signature="method#getMultipartFromUri#0;class#MainActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/hotMsg/HotMessageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/res/layout/activity_hot_msg.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dou/src/main/java/com/bytedance/androidcamp/network/dou/HotMsgActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="93" column="73" selection-start-line="93" selection-start-column="73" selection-end-line="93" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

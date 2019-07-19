@@ -19,6 +19,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -29,4 +34,8 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:28.0.0'
 
     implementation project(':lib')
+
+    //第三方库
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'in.srain.cube:ultra-ptr:1.0.11'
 }

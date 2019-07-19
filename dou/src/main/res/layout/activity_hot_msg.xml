@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHotMsgBackground"
+        android:orientation="horizontal">
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/imageButton"-->
+            <!--android:layout_width="48sp"-->
+            <!--android:layout_height="48sp"-->
+            <!--android:padding="12sp"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:background="@color/colorHotMsgBackground"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:onClick="backMyPage"-->
+            <!--app:srcCompat="@drawable/back_gray2" />-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="抖音热搜"
+                android:textColor="@color/colorHotMsgTitle"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <View
+                android:background="#e6face15"
+                android:layout_width="150sp"
+                android:layout_gravity="center"
+                android:layout_height="3sp" />
+        </LinearLayout>
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/imageButton2"-->
+            <!--android:layout_width="48sp"-->
+            <!--android:layout_height="48sp"-->
+            <!--android:padding="12sp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@color/colorHotMsgBackground"-->
+            <!--android:scaleType="fitXY"-->
+            <!--app:srcCompat="@drawable/share_gray" />-->
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

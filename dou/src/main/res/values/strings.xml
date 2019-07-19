@@ -7,4 +7,8 @@
     <string name="post_it">post it!</string>
     <string name="refresh_feed">refresh feed</string>
     <string name="success_try_refresh">SUCCESS, try refresh!</string>
+    <string name="heart_time">1.6w</string>
+    <string name="msg_time">1.6w</string>
+    <string name="share_time">1.6w</string>
+    <string name="title_activity_custom_camera">CustomCameraActivity</string>
 </resources>
